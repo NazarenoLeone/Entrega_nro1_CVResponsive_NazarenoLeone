@@ -1,0 +1,6 @@
+Esta es la entrega del CV Responsive que realicé.
+Utilice HTML, CSS y JS. Además de un pequeño agregado en el cual utilicé PHP para poder enviar el formulario.
+Es la primera vez que uso PHP asi que trate de interiorizarme para poder completarlo y que funcione correctamente.
+También me tome el tiempo para subirlo a un hosting el cual dejo a continuación.
+
+https://nazarenoleone.000webhostapp.com/
