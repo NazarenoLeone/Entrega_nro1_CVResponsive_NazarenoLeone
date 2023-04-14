@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="preload" href="estilos/estilos.css" as="style">
+    <link href="estilos/estilos.css" rel="stylesheet">
+    <link href="estilos/normalize.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300&display=swap" rel="stylesheet">
+</head>
+
+<body class="no-repeat" id="cuerpo">
+
+    <header>
+        <h1>Nazareno Julián Leone</h1>
+    </header>
+    <nav class="navegacion-bg contenedor">
+        <nav class="navegacion">
+            <a href="https://nazarenoleone.000webhostapp.com/">Menu Principal</a>
+            <a href="https://nazarenoleone.000webhostapp.com/info-personal.html">Información Personal</a>
+        </nav>
+    </nav>
+    <div id="estudios" class="contenedor-main">
+        <main class="menu">
+            <div>
+                <div class="titulo-icono alinear-centro">
+                    <i class="fa-solid fa-link"></i>
+                    <h2>Links</h2>
+                </div>
+                <div class="contenedor-lista">
+                    <div class="contenedor-estudios">
+                        <ul>
+                            <div class="link-icono">
+                                <i class="fa-brands fa-linkedin fa-2xl amarillo"></i>
+                                <a class="link-contacto" href="https://www.linkedin.com/in/nazarenojleone">Linked In</a>
+                            </div>
+                            <div class="link-icono">
+                                <i class="fa-brands fa-github fa-2xl amarillo"></i>
+                                <a class="link-contacto" href="https://github.com/NazarenoLeone">GitHub</a>
+                            </div>
+                            <div class="link-icono">
+                                <i class="fa-regular fa-circle-dot fa-2xl amarillo"></i>
+                                <a class="link-contacto"
+                                    href="https://app.netlify.com/teams/leonenazareno/overview">Netlify</a>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div class="contenedor-lista" id="contacto">
+        <div class="titulo-icono alinear-centro">
+            <i class="fa-solid fa-envelope"></i>
+            <h2>Contacto</h2>
+        </div>
+
+        <p>Telefono: 011-5144-0157</p>
+        <p>leonenazareno@gmail.com</p>
+        <form action="dir/enviar.php" method="post" class="formulario">
+            <fieldset>
+                <legend>Contactame llenando todos los campos</legend>
+                <div class="contenedor-campos">
+                    <div class="flex cont-nombre-tel">
+                        <div class="campo">
+                            <label>Nombre</label>
+                            <input class="input-ttes" type="text" name="nombre" placeholder=" Ingrese Nombre" required>
+
+                            <label>Teléfono</label>
+                            <input class="input-ttes" type="tel" name="tel" placeholder=" Ingrese número telefónico"
+                                required>
+                        </div>
+                    </div>
+                    <div class="campo">
+                        <label>Correo</label>
+                        <input class="input-ttes" type="email" name="correo" placeholder=" Ingrese e-mail" required>
+                    </div>
+                    <div class="campo">
+                        <label>Mensaje:</label>
+                        <textarea class="input-ttes" name="msj" required></textarea>
+                    </div>
+                </div>
+
+                <div class="alinear-derecha flex w-sm-100">
+                        <a class="boton" href="msj-enviado.html">Enviar</a>
+                        <!--<input class="boton" type="submit" value="Enviar">-->
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+    <footer>
+        <p>© Nazareno Leone, 2023</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/ce53624a65.js" crossorigin="anonymous"></script>
+    <script src="app/app.js"></script>
+</body>
+
+</html>
